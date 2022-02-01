@@ -61,7 +61,6 @@ section {
 
 .check-box-custom::after {
     display: inline-block;
-    border: 1px solid green;
     border-radius: 50%;
 
     width: 20px;
@@ -71,15 +70,52 @@ section {
     line-height: 20px;
     vertical-align: middle;
 
+    font-size: 0.8rem;
+}
+
+.check-box-custom-green::after {
     content: "\2713";
     color: green;
-    font-size: 0.8rem;
+    border: 1px solid green;
+}
+
+.check-box-custom-red::after {
+    content: "\2613";
+    color: red;
+    border: 1px solid red;
 }
 
 .fake-button-3 {
     border-radius: 12px;
     color: white;
-    background-color: rgb(69,171,234);
     padding: 6px;
     font-size: 0.7rem;
+}
+
+.fake-button-3-bg-blue {
+    background-color: rgb(69,171,234);
+}
+
+.fake-button-3-bg-violet {
+    background-color: rgb(156,114,228);
+}
+
+.fake-button-3-bg-green {
+    background-color: rgb(100,192,169);
+}
+
+.fake-button-3-bg-orange {
+    background-color: rgb(242,158,51);
+}
+
+.fake-button-3-bg-fucsia {
+    background-color: rgb(216,99,161);
+}
+
+.fake-button-3-bg-yellow {
+    background-color: rgb(176,201,38);
+}
+
+.container-sections {
+    margin-top: 20px;
 }
