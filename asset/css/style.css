@@ -6,3 +6,32 @@
     box-sizing: border-box;
     font-family: Lato;
 }
+
+body {
+    background-color: gray;
+}
+
+header {
+    line-height: 80px;
+    vertical-align: middle;
+    border: 1px solid red;
+    background-color: white;
+}
+
+#logo-img {
+    height: 80px;
+}
+
+#h1-id {
+    display: inline;
+}
+
+main {
+    width: 70%;
+    margin: 40px auto;
+    background-color: white;
+}
+
+.main-container {
+    padding: 20px 40px;
+}
