@@ -12,14 +12,14 @@ body {
 }
 
 header {
-    line-height: 80px;
-    vertical-align: middle;
-    border: 1px solid red;
     background-color: white;
+    padding: 10px;
 }
 
 #logo-img {
-    height: 80px;
+    height: 50px;
+    line-height: 50px;
+    vertical-align: middle;
 }
 
 #h1-id {
@@ -51,12 +51,25 @@ section {
     padding: 20px 40px;
 }
 
+.arrow-span::before {
+    content: "\1F893";
+}
+
 .check-box-custom {
     border: 1px solid red;
     border-radius: 50%;
-    padding: 10px;
+    padding: 1px;
 }
 
-.check-box-custom::before {
+.check-box-custom::after {
     content: "\2713";
+    font-size: 0.8rem;
+}
+
+.fake-button-3 {
+    border-radius: 12px;
+    color: white;
+    background-color: blue;
+    padding: 6px;
+    font-size: 0.7rem;
 }
