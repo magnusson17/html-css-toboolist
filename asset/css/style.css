@@ -23,7 +23,7 @@ header {
 }
 
 #h1-id {
-    display: inline;
+    display: inline-block;
 }
 
 main {
@@ -51,14 +51,21 @@ section {
     padding: 20px 40px;
 }
 
-.arrow-span::before {
+h2::before {
     content: "\1F893";
+    font-size: 30px;
 }
 
 .check-box-custom {
+    display: inline-block;
     border: 1px solid red;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     padding: 1px;
+    text-align: center;
+    line-height: 20px;
+    vertical-align: middle;
 }
 
 .check-box-custom::after {
