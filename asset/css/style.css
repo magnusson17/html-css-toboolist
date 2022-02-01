@@ -32,7 +32,7 @@ main {
     background-color: white;
 }
 
-.main-container {
+.span-div {
     padding: 20px 40px;
 }
 
@@ -45,4 +45,18 @@ main {
 .fake-button-1 {
     color: white;
     background-color: blue;
+}
+
+section {
+    padding: 20px 40px;
+}
+
+.check-box-custom {
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.check-box-custom::before {
+    content: "\2713";
 }
