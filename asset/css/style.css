@@ -68,7 +68,7 @@ section {
     
     text-align: center;
     line-height: 20px;
-    vertical-align: middle;
+    /* vertical-align: middle; */
 
     font-size: 0.8rem;
 }
