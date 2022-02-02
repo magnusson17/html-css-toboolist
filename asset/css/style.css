@@ -18,12 +18,12 @@ header {
 
 #logo-img {
     height: 50px;
-    line-height: 50px;
     vertical-align: middle;
 }
 
 #h1-id {
     display: inline-block;
+    vertical-align: middle;
 }
 
 .hr-class {
